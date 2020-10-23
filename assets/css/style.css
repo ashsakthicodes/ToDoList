@@ -1,0 +1,40 @@
+.container{
+    margin: 50px auto;
+    padding: 25px;
+    background: coral;
+    border-radius: 25px;
+}
+
+h1{
+	padding-bottom: 25px;
+}
+
+input{
+    background: transparent;
+    border: none;
+    width: 50%;
+    border-bottom: 2px solid black;
+    margin-right: 25px;
+}
+
+input:focus{
+	outline: none;
+}
+
+ul{
+	padding-top: 25px;
+}
+
+li {
+    width: 100%;
+    display: inline-block;
+}
+
+.btn-success, .btn-secondary{
+	margin: 10px 15px;
+	float: right;
+}
+
+.done{
+  text-decoration: line-through;
+}
